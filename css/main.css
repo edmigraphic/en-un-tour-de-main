@@ -1,0 +1,89 @@
+
+h1 {
+
+  font-size: 4em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  text-align: center;
+  color: #ff7b6f;
+  font-family: 'Fredoka One', cursive;
+}
+
+p{
+  margin-bottom: 1em;
+font-family: 'Comfortaa', cursive;
+color: #2265b2;
+
+}
+
+.container {
+  margin-top: 8em;
+}
+
+.container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px
+}
+
+.header-nav {
+  background: #f8f9fa; /* Old browsers */
+background: -moz-linear-gradient(top, #f8f9fa 0%, #f8f9fa 50%, #f8f9fa 50%, #56a5ff 50%, #56a5ff 50%, #f8f9fa 50%, #f8f9fa 50%, #56a5ff 50%, #f8f9fa 50%, #4e63e8 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f8f9fa 0%,#f8f9fa 50%,#f8f9fa 50%,#56a5ff 50%,#56a5ff 50%,#f8f9fa 50%,#f8f9fa 50%,#56a5ff 50%,#f8f9fa 50%,#4e63e8 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f8f9fa 0%,#f8f9fa 50%,#f8f9fa 50%,#56a5ff 50%,#56a5ff 50%,#f8f9fa 50%,#f8f9fa 50%,#56a5ff 50%,#f8f9fa 50%,#4e63e8 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f9fa', endColorstr='#4e63e8',GradientType=0 ); /* IE6-9 */
+}
+
+.navbar-nav {
+    background: #56a5ff;
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 8px;
+    min-height: 150px;
+    text-align: center;
+    color: #fefefe;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2em;
+}
+
+.navbar-nav {
+  padding: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fefefe;
+  background: #2265b2;
+  border-radius: 12px 12px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 200px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  margin-right: 4px;
+}
+
+@media only screen and (max-width: 1240px) {
+  .navbar-light .navbar-nav .nav-link {
+  font-size : 0.75em;
+}
+}
+
+
+
+video {
+  border : 2em solid #000;
+  border-radius: 1em;
+  display: block;
+  width : 1000px;
+  margin: 2em auto;
+  margin-bottom: 100px ;
+}
+
+.page-navigation-block {
+  background: #ff7b6f;
+  min-height: 100px;
+  color: #fefefe;
+  font-size: 1.2em;
+  font-family: 'Comfortaa', cursive;
+}
